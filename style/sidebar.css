@@ -1,0 +1,46 @@
+.top-section {
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  top: 57px;
+  width: 72px;
+
+  background-color: white;
+  z-index: 200;
+  bottom: 0;
+  left: 0;
+
+  justify-content: space-between;
+}
+.sidebar {
+  display: flex;
+  flex-direction: column;
+}
+
+.sidebar img {
+  height: 24px;
+  margin-bottom: 5px;
+}
+.icon-div {
+  display: flex;
+  flex-direction: column;
+  font-size: 10px;
+  font-family: roboto, Arail;
+  margin-top: 5px;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  transition: background-color 0.15;
+}
+
+.icon-div:hover {
+  background-color: #eeeeee;
+}
+.top-section {
+  display: flex;
+  height: 450px;
+  flex-direction: column;
+}
+.top-section div {
+  cursor: pointer;
+}
